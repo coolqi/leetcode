@@ -23,14 +23,10 @@
  * @return {character}
  */
 var findTheDifference = function(s, t) {
-    let arr = t.split('');
-    for(let i in arr) {
-        let sArr = s.split('');
-        if(s.indexOf(arr[i]) === -1) return arr[i];
-        else {
-            sArr[s.indexOf(arr[i])] = 0;
-            s = sArr.join('');
-        }
+    let sArr = s.split('').sort();
+    let arr = t.split('').sort();
+    for(let i=0;i<sArr.length;i++) {
+        if(sArr[i] != arr[i]) return arr[i];
     }
-    return 0;
+    return arr[arr.length-1];
 };

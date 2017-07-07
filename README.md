@@ -4,7 +4,13 @@
 
 ### Leetcode questions link
 * [1. Two Sum](https://leetcode.com/problems/two-sum/#/description)
+* [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/#/description)
+* [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/#/description)
+* [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/#/description)
 * [15. 3Sum](https://leetcode.com/problems/3sum/#/description)
+* [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/#/description)
+* [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/#/description)
+* [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/#/description)
 * [169. Majority Element](https://leetcode.com/problems/majority-element/#/description)
 * [389. Find the Difference](https://leetcode.com/problems/find-the-difference/#/description)
 * [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/#/description)

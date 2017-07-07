@@ -4,24 +4,23 @@
 
 // You may assume that the array is non-empty and the majority element always exist in the array.
 
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
 var majorityElement = function(nums) {
-    let arr = {}; // count arr
-    let res = 0;
-    for(let i=0;i<nums.length;i++) {
-        if(arr[nums[i]]) {
-            arr[nums[i]] += 1; // if exists
+    let num = nums[0];
+    let count = 1;
+    for(let i=1;i<nums.length;i++){
+        if(nums[i] === num) {
+            count++;
         } else {
-            arr[nums[i]] = 1; // if not exist
+            count--;
+        }
+        if(count<0) {
+            num = nums[i];
+            count = 1;
         }
     }
-    for(let i in arr) {
-        if((arr[i] * 2) >= nums.length) {
-            if(arr[i] < arr[i+1]) {
-                res = i+1;
-            } else {
-                res = i;
-            }
-        }
-    }
-    return parseInt(res);
+    return num;
 };
