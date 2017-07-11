@@ -12,6 +12,7 @@
 * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/#/description)
 * [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/#/description)
 * [27. Remove Element](https://leetcode.com/problems/remove-element/#/description)
+* [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/#/description)
 * [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/#/description)
 * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/#/description)
 * [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/#/description)
